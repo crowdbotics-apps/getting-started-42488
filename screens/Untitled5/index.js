@@ -13,9 +13,9 @@ const Untitled5 = () => {
     }}>
         <Text style={styles.CzHvEXPu}>{"Title"}</Text>
         <View style={styles.PHkqPzyl}></View>
-        <TextInput style={styles.YDHOqima} placeholder="Search..." placeholderTextColor="#777777"></TextInput>
+        <TextInput style={styles.YDHOqima} placeholder="Search..." placeholderTextColor="#777777" inlineImageLeft="Hi" inlineImagePadding={12} numberOfLines={1} clearTextOnFocus={true}></TextInput>
       </ScrollView>
-    </SafeAreaView>;
+    <View></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -29,20 +29,20 @@ const styles = StyleSheet.create({
     fontSize: 24,
     borderRadius: 0,
     position: "absolute",
-    left: 15,
-    top: 60,
+    left: 16,
+    top: 26,
     fontFamily: "Open Sans",
     fontWeight: "700"
   },
   PHkqPzyl: {
     height: 92,
     width: 140,
-    backgroundColor: "#a30000",
+    backgroundColor: "#878787",
     borderRadius: 4,
     color: "#777777",
     position: "absolute",
-    left: 21,
-    top: 95
+    left: 20,
+    top: 112
   },
   YDHOqima: {
     backgroundColor: "#ffffff",
@@ -52,8 +52,8 @@ const styles = StyleSheet.create({
     position: "absolute",
     borderRadius: 4,
     padding: 12,
-    left: 19,
-    top: 13
+    left: 22,
+    top: 61
   }
 });
 export default Untitled5;
